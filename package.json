@@ -1,0 +1,23 @@
+{
+  "name": "nody-http",
+  "version": "0.0.1",
+  "description": "nody streams for http",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test -R min -u bdd"
+  },
+  "keywords": [
+    "nody",
+    "stream",
+    "http"
+  ],
+  "author": "greelgorke <greelgorke@gmail.com> (greelgorke.tumblr.com)",
+  "license": "MIT",
+  "peerDependencies":{
+    "nody": "*"
+  },
+  "devDependencies":{
+    "mocha":"*"
+  }
+
+}
