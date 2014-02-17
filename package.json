@@ -13,11 +13,13 @@
   ],
   "author": "greelgorke <greelgorke@gmail.com> (greelgorke.tumblr.com)",
   "license": "MIT",
-  "peerDependencies":{
+  "peerDependencies": {
     "nody": "*"
   },
-  "devDependencies":{
-    "mocha":"*"
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "dependencies": {
+    "routes": "~0.2.0"
   }
-
 }
